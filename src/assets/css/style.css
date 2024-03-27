@@ -1,0 +1,46 @@
+.comfortaa-bold {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.comfortaa-medium {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.comfortaa-regular {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.theme-light header.card-header {
+    background: linear-gradient(180deg, hsl(171, 100%, 96%) 55%, white 50%);
+}
+
+.theme-dark header.card-header {
+    background: linear-gradient(180deg, hsl(171, 100%, 96%) 55%, transparent 50%);
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#btn-dark-mode {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.card-footer {
+    border: none;
+}
