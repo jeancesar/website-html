@@ -38,6 +38,12 @@
 #btn-dark-mode {
     position: absolute;
     top: 0;
+    right: 2rem;
+}
+
+#btn-language {
+    position: absolute;
+    top: 0;
     right: 0;
 }
 
